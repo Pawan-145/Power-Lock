@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home_style.css">
+    <title>Power Lock</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-image">
+        <img src="assets/hills-2836301.jpg" alt="Background Image">
+    </div>
+    <div class="main">
+        <div class="navbar">
+            <div class="logo">
+                <h2><img src="assets/logo.jpg" alt="logo" class="logo_home"></h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li id="index_home"><a href="index.html">Home</a></li>
+                    <li><a href="power_future.html">Sustainability Tracker</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <!-- <li><a href="facts.html">Facts</a></li> -->
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Welcome to Sustainable Tracker</h1>
+            <p>Explore the fascinating world of sustainability and make a positive impact on our environment.</p>
+            <div class="interesting-section">
+                <h2>Discover Now</h2>
+                <p>Unlock the secrets of sustainable living with our innovative solutions.</p>
+            </div>
+        </div>
+        <!-- <footer>
+            <p id="footer">&copy; 2024 Your Website. All rights reserved.</p>
+        </footer> -->
+    </div>
+    <script>
+        let tracker  = document.querySelector('.interesting-section');
+        tracker.addEventListener('click',() =>{
+
+            window.location.href = "power_future.html";
+        });
+        let home = document.getElementById('index_home');
+        home.addEventListener('click',() =>{
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>

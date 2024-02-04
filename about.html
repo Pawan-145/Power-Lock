@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <div class="main2">
+        <div class="navbar">
+            <div class="logo">
+                <h2><img src="assets/logo.jpg" alt="logo" class="logo_home"></h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li id="home_about"><a href="index.html">Home</a></li>
+                    <li><a href="power_future.html">Sustainability Tracker</a></li>
+                    <li><a href="about.html" class="active">About Us</a></li>
+                    <!-- <li><a href="facts.html">Facts</a></li> -->
+                </ul>
+            </div>
+        </div>
+    <div class="main">
+        <div class="about-section">
+            <h1>About Us</h1>
+            <p>Welcome to our sustainability-focused team. Learn more about our members and our Vision.</p>
+            <div class="members-container">
+                <div class="member">
+                    <img src="assets/pawan2.png" alt="Member 1">
+                    <h3>Pawan Kumar Ray</h3>
+                   
+                    <div class="social-media">
+                       <a href="https://www.linkedin.com/in/pawan-kumar-ray-0062122a3/" target="_blank"> 
+                        <img src="assets/linked2.png" alt="LinkedIn" id="pawan"> </a>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="assets/vanshi.png" alt="Member 2">
+                    <h3>Vanshika Sharma</h3>
+             
+                    <div class="social-media">
+                       <a href="https://www.instagram.com/sharma.vanshikaaaa/" target="_blank"> <img src="assets/instagram.jpg" alt="instagram" id="vanshika_insta"></a>
+                      <a href="https://www.linkedin.com/in/vanshika-sharma-bb0947260/" target="_blank">  <img src="assets/linked2.png" alt="LinkedIn" id="vanshika_linked"></a>
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="assets/samarth.jpg" alt="Member 3">
+                    <h3>Samarth Yadav</h3>
+                  
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/iamthesamarthyadav?igsh=MTNidHNibXA4dHJsaw==" target="_blank"><img src="assets/instagram.jpg" alt="instagram" id="samarth_insta"></a>
+                       <a href="https://www.linkedin.com/in/samarth-yadav-18a49527b/" target="_blank"><img src="assets/linked2.png" alt="LinkedIn" id="samarth_linked"></a> 
+                    </div>
+                </div>
+                <div class="member">
+                    <img src="assets/kunal2.png" alt="Member 4">
+                    <h3>Kunal</h3>
+                 
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/kunal-singh-696a6529a/" target="_blank"><img src="assets/linked2.png" alt="LinkedIn" id="kunal"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="info-section">
+            <h2>How Our project works?</h2>
+            <p><ol>
+                <li> You have to click on sustainability tracker option</li>
+                <li> You have to select state</li>
+                <li>Then fill form containing details like (FirstName,LastName,Email,Contact Number,state,Electricity per unit(KWh))</li>
+                <li> Result page will appear. </li>
+                 <li> Result page will show calculated cost according to state and then  give feedback whether it is Good or Bad</li>
+                 
+            </ol></p>
+        </div>
+        <div class="aim-section">
+            <h2>Our Vision</h2>
+            <p>Our Vision is to make people aware of the energy usage pattern they are following currently by calculating the consumption of electrical energy by a user in one month and then rating them accordingly.
+                Also providing them information about how they can reduce the excess energy usage and hence saving the energy.</p>
+        </div>
+        <div class="greeting-section">
+            <h2>Greetings from Our Team</h2>
+            <p>Welcome to our sustainable community! We're excited to share our passion for sustainability and make a positive impact on the environment. Meet our team members and learn more about our journey.</p>
+        </div>
+    </div>
+    <script>
+        let home = document.querySelector('#home_about');
+        home.addEventListener('click',() =>{
+        window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
