@@ -13,7 +13,8 @@
 5. Fill out the form that appears with accurate details and submit it.
 6. The electricity usage result page will display your total cost and consumption feedback (very good, good, bad, very bad).
 7. Note that the consumption feedback varies based on the selected state.
-
+8. We used Firebase for hosting.
+   [PowerLock]([Visit OpenAI](https://www.openai.com)
 ---
 
 ### Our Vision
